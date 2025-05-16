@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechHaven King Academy</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Popup Advertisement -->
+    <div id="popup" class="popup">
+        <div class="popup-content">
+            <span class="close-popup">&times;</span>
+            <h2>Special Offer!</h2>
+            <p>Get 20% off on all courses. Use code: CODE20</p>
+        </div>
+    </div>
+
+    <!-- Header Section -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#courses">Courses</a></li>
+                <li><a href="#media">Media</a></li>
+                <li><a href="#live-classes">Live Classes</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+         <div class="hero-slider">
+        <div class="slide active" style="background-image: url('portriat.avif');"></div>
+        <div class="slide" style="background-image: url('kids.avif');"></div>
+        <div class="slide" style="background-image: url('');"></div>
+        <!-- Add more slides as needed -->
+    </div>
+    <div class="hero-content">
+        <h1><strong>Welcome to <br>TechHaven King Academy <br>(THK) </strong></h1>
+        <p><b>Empowering the Next Generation of TECH LEADERS.</b></p>
+        <a href="#courses" class="cta-button">Explore Courses</a>
+    </div>
+    </header>
+
+    <!-- About Us Section -->
+    <section id="about">
+        <h2>About Us</h2>
+        <p>TechHaven King Academy is committed to providing top-tier education in coding and technology for kids aged 7-18. Raising the new generation of tech-savvy. Building kids to become problem solvers through technology. Catching them young and nurturing them to greatness through different ICT training and programming.</p>
+        <p>Founded by a seasoned CyberSecurity specialist and cloud engineer, our mission is to make technology education accessible to the next generation of innovators.</p>
+    </section>
+
+    <!-- Courses Section -->
+    <section id="courses">
+        <h2>Our Courses</h2>
+        <div class="course">
+            <h3>Beginner Programming (Ages 7-10)</h3>
+            <p>Introduction to coding with fun and interactive games.</p>
+        </div>
+        <div class="course">
+            <h3>Intermediate Coding (Ages 11-14)</h3>
+            <p>Dive deeper into coding languages like Python and JavaScript.</p>
+        </div>
+        <div class="course">
+            <h3>Advanced Development (Ages 15-18)</h3>
+            <p>Advanced coding skills, including web and app development.</p>
+        </div>
+    </section>
+
+    <!-- Media Section (Videos & Images) -->
+    <section id="media">
+        <h2>Media Gallery</h2>
+        <!-- Videos Section -->
+        <div class="videos">
+            <h3>Watch Our Videos</h3>
+            <div class="video-item">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/sample-video" frameborder="0" allowfullscreen></iframe>
+            </div>
+            <div class="video-item">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/sample-video-2" frameborder="0" allowfullscreen></iframe>
+            </div>
+        </div>
+        
+        <!-- Images Section -->
+        <div class="images">
+            <h3>View Our Photos</h3>
+            <img src="image1.jpg" alt="Coding Class 1" class="gallery-img">
+            <img src="image2.jpg" alt="Coding Class 2" class="gallery-img">
+            <img src="image3.jpg" alt="Coding Class 3" class="gallery-img">
+        </div>
+    </section>
+
+    <!-- Live Classes Section -->
+    <section id="live-classes">
+        <h2>Join a Live Class</h2>
+        <p>Our live classes offer real-time learning with expert instructors.</p>
+        <a href="#login" class="cta-button">Login to Join</a>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <form action="/submit-form" method="POST">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit">Send</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 TechHaven King Academy. All rights reserved.</p>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
