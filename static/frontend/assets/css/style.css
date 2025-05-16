@@ -1,4 +1,5 @@
 :root {
+  /* --my-primary: #710193; */
   --my-primary: rgb(126, 12, 179);
   --my-secondary: rgb(255, 196, 0);
   --bs-primary: rgb(126, 12, 179) !important;
@@ -6,6 +7,9 @@
 
 .bg-primary {
   background-color: var(--my-primary) !important;
+}
+.bg-secondary {
+  background-color: var(--my-secondary) !important;
 }
 .text-primary {
   color: var(--my-primary) !important;
@@ -249,7 +253,7 @@ h6,
 .hero-header,
 .page-header {
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.05)),
-    url(/static/frontend/assets/img/hero3.jpg);
+    url(/static/frontend/assets/img/hero5.jpg);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
